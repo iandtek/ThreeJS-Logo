@@ -30,7 +30,7 @@ function init() {
     //model
 
     var loader = new OBJLoader();
-    loader.load( 'https://simonbermudez.com/logo/models/sb.obj', function ( obj ) {
+    loader.load( 'models/sb.obj', function ( obj ) {
 
         object = obj;
         object.scale.multiplyScalar( 300 );
