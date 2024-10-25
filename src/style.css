@@ -30,24 +30,40 @@ a, #menu-button {
     color: grey;
 }
 
-#menu .counter {
-    counter-reset: delay-counter;
-    --base-delay: 250ms;
+.delay-1 {
+    animation-delay: 250ms;
+}
+.delay-2 {
+    animation-delay: 500ms;
+}
+.delay-3 {
+    animation-delay: 750ms;
+}
+.delay-4 {
+    animation-delay: 1s;
+}
+.delay-5 {
+    animation-delay: 1.25s;
 }
 
-#menu .counter .delay {
-    counter-increment: delay-counter;
+.delay-6 {
+    animation-delay: 1.5s;
 }
 
-#menu .counter .delay {
-    animation-delay: calc(counter(delay-counter) * var(--base-delay));
+.delay-7 {
+    animation-delay: 1.75s;
 }
 
-#menu .counter li::before {
-    content: counter(delay-counter);
-    position: absolute;
-    left: -20px;
-    color: red;
+.delay-8 {
+    animation-delay: 2s;
+}
+
+.delay-9 {
+    animation-delay: 2.25s;
+}
+
+.delay-10 {
+    animation-delay: 2.5s;
 }
 
 .top {

@@ -3,7 +3,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
-    "dev": "webpack serve --config ./bundler/webpack.dev.js"
+    "dev": "webpack serve --config ./bundler/webpack.dev.js --content-base src --hot --inline"
   },
   "dependencies": {
     "@babel/core": "^7.13.1",
